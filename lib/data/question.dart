@@ -52,4 +52,40 @@ const questions = [
       'By calling updateState()',
     ],
   ),
+  QuizQuestion(
+    'What is the entry point of a Flutter app?',
+    [
+      'main() function',
+      'runApp() function',
+      'initState() method',
+      'build() method',
+    ],
+  ),
+  QuizQuestion(
+    'Which widget is used to create a material design button in Flutter?',
+    [
+      'ElevatedButton',
+      'FlatButton',
+      'RaisedButton',
+      'MaterialButton',
+    ],
+  ),
+  QuizQuestion(
+    'What is the purpose of the MaterialApp widget in a Flutter app?',
+    [
+      'Configures the top-level Navigator',
+      'Defines the theme for the app',
+      'Manages the state of the entire app',
+      'Handles HTTP requests',
+    ],
+  ),
+  QuizQuestion(
+    'How can you add padding around a widget in Flutter?',
+    [
+      'Using the Padding widget',
+      'Using the Margin widget',
+      'Applying padding directly to the widget',
+      'Using the Container widget',
+    ],
+  ),
 ];
