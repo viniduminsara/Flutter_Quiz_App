@@ -7,9 +7,11 @@ class ResultScreen extends StatelessWidget {
   const ResultScreen({
     super.key,
     required this.selectedAnswers,
+    required this.onRestart,
   });
 
   final List<String> selectedAnswers;
+  final Function() onRestart;
 
   List<Map<String, Object>> getSummaryData() {
     final List<Map<String, Object>> summary = [];
@@ -53,13 +55,13 @@ class ResultScreen extends StatelessWidget {
             QuestionSummary(summaryData: summaryData),
             const SizedBox(height: 40),
             OutlinedButton.icon(
+              onPressed: onRestart,
               style: ButtonStyle(
                 side: MaterialStateProperty.all(
                     const BorderSide(color: Colors.white)), // Set border color
                 iconColor:
                     MaterialStateProperty.all(Colors.white), // Set icon color
               ),
-              onPressed: () {},
               label: const Text('Restart Quiz',
                   style: TextStyle(color: Colors.white)), // Set text color
               icon: const Icon(Icons.refresh),
