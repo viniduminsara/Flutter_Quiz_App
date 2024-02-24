@@ -12,4 +12,11 @@ Welcome to the Flutter Quiz App! This mobile application is designed to test you
 
 ## Screenshots
 
+<div style="width: 100%;display: flex; justify-content: space-around;">
+    <img src="assets/screenshots/screenshot (1).png" alt="Alt Text" width="200" height="400">
+    <img src="assets/screenshots/screenshot (2).png" alt="Alt Text" width="200" height="400">
+    <img src="assets/screenshots/screenshot (3).png" alt="Alt Text" width="200" height="400">
+</div>
+
+
 
